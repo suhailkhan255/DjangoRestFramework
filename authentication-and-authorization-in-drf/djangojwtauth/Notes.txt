@@ -1,0 +1,12 @@
+
+django-cors-headers : 
+-this package is use to resolve the error while integration with UI
+- add corsheaders in installed app
+- add in middleware before CommonMiddleware corsheaders.middleware.CorsMiddleware
+- configure CORS_ALLOWED_ORIGINS in settings
+for more check: https://pypi.org/project/django-cors-headers/
+
+django-dotenv:
+- this package is used to configure .env file 
+- create .env file
+- configure in settings by using os.environ.get('NAME')
